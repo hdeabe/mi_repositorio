@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+   /* border: solid 1px #000;*/
+    background-color: white;
+}
+
+.logo{
+    
+    padding:10px;
+    margin:10px 10px 10px 30px;
+    border:10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    padding:0px 30px;
+    margin:0px 30px;
+}
+.menu{
+    list-style: none;
+    background-color: rgb(155, 183, 235);
+    padding:10px;
+    margin:10px;
+    border:10px;
+
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+.menu li{
+    background-color: rgb(155, 183, 235);
+    justify-self: center;
+
+}
+
+.menu li a{
+    background-color: rgb(155, 183, 235);
+    justify-self: center;
+}
+
+.contenedor{
+    
+    margin: 20px;
+    padding: 20px;
+    border:20px;
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+   
+
+
+}
+.contenedor .main {
+    
+    width:60vh;
+    display:grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.contenedor h2{
+    margin:10px;
+    padding:10px;
+    width: 60vh;
+    
+}
+.contenedor p{
+    margin:10px;
+    padding:10px;
+    width:60vh;
+} 
+
+.contenedor ul li{
+    
+    margin:10px;
+    padding:10px;
+    width: 60vh;
+}
+.contenedor aside img{
+    width: 500px;
+    margin:100px 0 0 0;
+    align-self: center;
+    
+}
+footer{
+    color:rgb(222, 223, 228);
+    background-color: slategray;
+    margin:20px;
+    padding:20px;
+    border:5px;
+    justify-self: center;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.container{
+    margin:10px;
+    padding:25px;
+}
+
+h1{
+    padding:10px;
+    margin:10px;
+}
+
+.mapa {
+    background-color: red;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.colorTitulos {
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+.grid1 {
+    margin:10px;
+    padding:10px;
+    
+
+
+}
+
+.grid1 ul{
+    margin:10px;
+    padding:10px;
+    font-size: 50px;
+    
+}
+
+ul{
+    margin:10px;
+    padding:20px;
+}
+
+ul li{
+    margin:10px;
+    padding:10px;
+}
+
+.foto:hover {
+    transform: scale(1.03,1.03);
+
+}
